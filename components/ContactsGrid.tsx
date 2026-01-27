@@ -60,13 +60,6 @@ const ContactCard: React.FC<ContactCardProps> = ({ contact }) => {
 
 const contacts: ContactLink[] = [
   { 
-    name: 'পুলিশ সুপার চাঁপাইনবাবগঞ্জ', 
-    designation: '', 
-    phone: '+8801320125500',
-    icon: 'fa-solid fa-award',
-    iconColor: 'bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400'
-  },
-  { 
     name: 'চাঁপাইনবাবগঞ্জ জেলা প্রশাসক', 
     designation: 'জেলা রিটার্নিং অফিসার', 
     phone: '+8801318320100',
@@ -74,11 +67,11 @@ const contacts: ContactLink[] = [
     iconColor: 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
   },
   { 
-    name: 'কন্ট্রোল রুম, পুলিশ সুপার কার্যালয়', 
-    designation: 'চাঁপাইনবাবগঞ্জ', 
-    phone: '+8801320126498',
-    icon: 'fa-solid fa-tower-broadcast',
-    iconColor: 'bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400'
+    name: 'পুলিশ সুপার চাঁপাইনবাবগঞ্জ', 
+    designation: '', 
+    phone: '+8801320125500',
+    icon: 'fa-solid fa-award',
+    iconColor: 'bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400'
   },
   { 
     name: 'অফিসার ইনচার্জ', 
@@ -86,6 +79,13 @@ const contacts: ContactLink[] = [
     phone: '+8801320125569',
     icon: 'fa-solid fa-user-shield',
     iconColor: 'bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400'
+  },
+  { 
+    name: 'কন্ট্রোল রুম, পুলিশ সুপার কার্যালয়', 
+    designation: 'চাঁপাইনবাবগঞ্জ', 
+    phone: '+8801320126498',
+    icon: 'fa-solid fa-tower-broadcast',
+    iconColor: 'bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400'
   },
   { 
     name: 'ডিউটি অফিসার', 
