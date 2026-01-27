@@ -128,7 +128,7 @@ const Header: React.FC = () => {
                     <p className="text-lg md:text-xl font-medium text-emerald-100/80">পুলিশ সুপার, চাঁপাইনবাবগঞ্জ</p>
                     <a href="tel:+8801320125500" className="inline-flex items-center space-x-3 mt-4 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-2xl transition-all active:scale-95 shadow-lg shadow-emerald-500/20 font-bold group/btn">
                       <i className="fa-solid fa-phone-volume group-hover/btn:animate-bounce"></i>
-                      <span>কল করুন: +৮৮০১৩২০-১২৫৫০০</span>
+                      <span> +৮৮০১৩২০-১২৫৫০০</span>
                     </a>
                   </div>
                </div>
