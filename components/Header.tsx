@@ -33,14 +33,7 @@ const Header: React.FC = () => {
   return (
     <header className="relative bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 dark:from-[#020617] dark:via-[#0f172a] dark:to-black text-white shadow-2xl border-b-8 border-red-600 overflow-hidden transition-colors duration-500">
       
-      {/* UNPAID DEMO Stamp */}
-      <div className="absolute top-12 left-1/2 -translate-x-1/2 md:left-24 md:translate-x-0 z-50 pointer-events-none select-none opacity-40 md:opacity-50">
-        <div className="border-[6px] border-red-500 px-6 py-2 rotate-[-15deg] flex flex-col items-center justify-center rounded-sm">
-          <span className="text-red-500 text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none">UNPAID Version </span>
-          <span className="text-red-500 text-2xl md:text-4xl font-black uppercase tracking-[0.2em] leading-none mt-1">DEMO Version </span>
-        </div>
-      </div>
-
+      
       {/* Decorative background elements with Parallax */}
       <div 
         className="absolute top-0 left-0 w-[40rem] h-[40rem] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none transition-transform duration-75 ease-out"
