@@ -5,7 +5,7 @@ export const MAP_LINKS: MapLink[] = [
   { id: 'u-1', name: '০১ নং বালিয়াডাঙ্গা ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/embed?mid=142CPpgVWP_Il0LZUqXRYX7Of7Kfy8D4&ehbc=2E312F', type: 'union', number: '০১' },
   { id: 'u-2', name: '০২ নং গোবরাতলা ইউনিয়ন', url: 'https://www.google.com/maps/d/edit?mid=1K4q14cGGROHwLyPtQI9UBj92XNXU1YI&usp=sharing', type: 'union', number: '০২' },
   { id: 'u-3', name: '০৩ নং ঝিলিম ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=1tmHvqfNwf0I6uQbZaHQVH1J7GtWNVy4&usp=sharing', type: 'union', number: '০৩' },
-  { id: 'u-4', name: '০৪ নং বারোঘরিিয়া ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=18lsj2NdGO7rP9ztQjzrSWIwvKOQHqCI&usp=sharing', type: 'union', number: '০৪' },
+  { id: 'u-4', name: '০৪ নং বারোঘরিয়া ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=18lsj2NdGO7rP9ztQjzrSWIwvKOQHqCI&usp=sharing', type: 'union', number: '০৪' },
   { id: 'u-5', name: '০৫ নং মহারাজপুর ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=1LScoS6AcoLEdBwNbv5TiVje0A6Ph7V8&usp=sharing', type: 'union', number: '০৫' },
   { id: 'u-6', name: '০৬ নং রাণীহাটি ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=14FKIctLvvFetQe-JJcEUJ1-PZme-mT4&usp=sharing', type: 'union', number: '০৬' },
   { id: 'u-7', name: '০৭ নং চরঅনুপ নগর ইউনিয়ন', url: 'https://www.google.com/maps/d/u/1/edit?mid=1HGmg4lxshTqIDi4n4nN330uIghGULI0&usp=sharing', type: 'union', number: '০৭' },
