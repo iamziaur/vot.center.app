@@ -122,10 +122,14 @@ const Header: React.FC = () => {
                   <div className="w-20 h-20 bg-emerald-500/20 rounded-3xl flex items-center justify-center group-hover:bg-emerald-500 transition-all shadow-xl border border-white/10">
                     <i className="fa-solid fa-user-tie text-3xl text-emerald-400 group-hover:text-white"></i>
                   </div>
-                  <div className="space-y-1">
+                  <div className="space-y-1 flex flex-col items-center md:items-start">
                     <p className="text-sm uppercase tracking-[0.3em] text-emerald-300 font-black opacity-90">সার্বিক দিকনির্দেশনায়</p>
                     <h2 className="text-3xl md:text-4xl font-black text-white group-hover:text-emerald-100 transition-colors">গৌতম কুমার বিশ্বাস</h2>
                     <p className="text-lg md:text-xl font-medium text-emerald-100/80">পুলিশ সুপার, চাঁপাইনবাবগঞ্জ</p>
+                    <a href="tel:+8801320125500" className="inline-flex items-center space-x-3 mt-4 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-2xl transition-all active:scale-95 shadow-lg shadow-emerald-500/20 font-bold group/btn">
+                      <i className="fa-solid fa-phone-volume group-hover/btn:animate-bounce"></i>
+                      <span>কল করুন: +৮৮০১৩২০-১২৫৫০০</span>
+                    </a>
                   </div>
                </div>
             </div>
@@ -137,10 +141,14 @@ const Header: React.FC = () => {
                   <div className="w-12 h-12 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:bg-emerald-500 transition-colors">
                     <i className="fa-solid fa-map-location-dot text-xl text-emerald-400 group-hover:text-white"></i>
                   </div>
-                  <div className="text-left">
+                  <div className="text-left flex-1">
                     <p className="text-xs uppercase tracking-[0.2em] text-emerald-300 mb-0.5 font-bold">মানচিত্র বাস্তবায়ন</p>
                     <p className="text-xl font-black">অফিসার ইনচার্জ</p>
                     <p className="text-xs font-medium opacity-70">চাঁপাইনবাবগঞ্জ সদর মডেল থানা</p>
+                    <a href="tel:+8801320125569" className="inline-flex items-center space-x-2 mt-3 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-xl border border-white/20 transition-all active:scale-95 text-sm font-bold w-full justify-center md:justify-start">
+                      <i className="fa-solid fa-phone"></i>
+                      <span>+৮৮০১৩২০১২৫৫৬৯</span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -150,10 +158,14 @@ const Header: React.FC = () => {
                   <div className="w-12 h-12 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:bg-emerald-500 transition-colors">
                     <i className="fa-solid fa-user-shield text-xl text-emerald-400 group-hover:text-white"></i>
                   </div>
-                  <div className="text-left">
+                  <div className="text-left flex-1">
                     <p className="text-xs uppercase tracking-[0.2em] text-emerald-300 mb-0.5 font-bold">তথ্য সংগ্রহ ও সমন্বয়</p>
                     <p className="text-xl font-black">মোঃ শাকিল হোসেন</p>
                     <p className="text-xs font-medium opacity-70 leading-tight">বিপি-৯৪২৩২৪৬৭৩৫, এসআই (নিঃ), সদর থানা</p>
+                    <a href="tel:+8801765112560" className="inline-flex items-center space-x-2 mt-3 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-xl border border-white/20 transition-all active:scale-95 text-sm font-bold w-full justify-center md:justify-start">
+                      <i className="fa-solid fa-phone"></i>
+                      <span>+৮৮০১৭৬৫১১২৫৬০</span>
+                    </a>
                   </div>
                 </div>
               </div>
