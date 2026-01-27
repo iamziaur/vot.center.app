@@ -97,7 +97,7 @@ const Header: React.FC = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-black/40 blur-2xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               <p className="relative text-base md:text-lg text-emerald-50/90 leading-relaxed bg-black/30 backdrop-blur-xl p-6 md:p-8 rounded-[2.5rem] border border-white/10 shadow-2xl text-center">
-                একটি অবাধ,সুষ্ঠু ও নিরপেক্ষ নির্বাচন অনুষ্ঠানে বাংলাদেশ পুলিশ বদ্ধপরিকর। এই দেশ আমার আপনার সকলের। আসুন সবাই মিলে একটি সুন্দর নির্বাচনের মাধ্যমে দেশকে নতুন সম্ভাবনার পথে এগিয়ে নেই।
+                একটি অবাধ, সুষ্ঠু ও নিরপেক্ষ নির্বাচন আয়োজনের জন্য বাংলাদেশ পুলিশ দৃঢ়প্রতিজ্ঞ। এই দেশ আমার, আপনার—আমাদের সকলের। আসুন, আমরা সবাই মিলে একটি সুন্দর ও শান্তিপূর্ণ নির্বাচনের মাধ্যমে দেশকে নতুন সম্ভাবনার পথে এগিয়ে নেই।
               </p>
             </div>
           </div>
