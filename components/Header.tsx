@@ -97,7 +97,7 @@ const Header: React.FC = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-black/40 blur-2xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               <p className="relative text-base md:text-lg text-emerald-50/90 leading-relaxed bg-black/30 backdrop-blur-xl p-6 md:p-8 rounded-[2.5rem] border border-white/10 shadow-2xl text-center">
-                ত্রয়োদশ জাতীয় সংসদ নির্বাচন বাংলাদেশের জাতীয় সংসদের সদস্যদের নির্বাচনের জন্য ১২ ফেব্রুয়ারী ২০২৬ তারিখে অনুষ্ঠিতব্য একটি সাধারণ নির্বাচন। এই নির্বাচন বাংলাদেশের পরবর্তী সরকার নির্ধারণ করবে। ২০২৪ সালের আগস্ট থেকে দেশ পরিচালনা করা, ডক্টর মুহাম্মদ ইউনূসের নেতৃত্বে অন্তর্বর্তীকালীন সরকারের অধীনে ভোট অনুষ্ঠিত হবে।
+                একটি অবাধ,সুষ্ঠু ও নিরপেক্ষ নির্বাচন অনুষ্ঠানে বাংলাদেশ পুলিশ বদ্ধপরিকর। এই দেশ আমার আপনার সকলের। আসুন সবাই মিলে একটি সুন্দর নির্বাচনের মাধ্যমে দেশকে নতুন সম্ভাবনার পথে এগিয়ে নেই।
               </p>
             </div>
           </div>
