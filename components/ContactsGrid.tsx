@@ -74,6 +74,13 @@ const contacts: ContactLink[] = [
     iconColor: 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
   },
   { 
+    name: 'কন্ট্রোল রুম, পুলিশ সুপার কার্যালয়', 
+    designation: 'চাঁপাইনবাবগঞ্জ', 
+    phone: '+8801320126498',
+    icon: 'fa-solid fa-tower-broadcast',
+    iconColor: 'bg-amber-50 dark:bg-amber-900/20 text-amber-600 dark:text-amber-400'
+  },
+  { 
     name: 'অফিসার ইনচার্জ', 
     designation: 'সদর মডেল থানা', 
     phone: '+8801320125569',
