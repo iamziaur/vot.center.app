@@ -33,6 +33,14 @@ const Header: React.FC = () => {
   return (
     <header className="relative bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 dark:from-[#020617] dark:via-[#0f172a] dark:to-black text-white shadow-2xl border-b-8 border-red-600 overflow-hidden transition-colors duration-500">
       
+      {/* UNPAID DEMO Stamp */}
+      <div className="absolute top-12 left-1/2 -translate-x-1/2 md:left-24 md:translate-x-0 z-50 pointer-events-none select-none opacity-40 md:opacity-50">
+        <div className="border-[6px] border-red-500 px-6 py-2 rotate-[-15deg] flex flex-col items-center justify-center rounded-sm">
+          <span className="text-red-500 text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none">UNPAID Version </span>
+          <span className="text-red-500 text-2xl md:text-4xl font-black uppercase tracking-[0.2em] leading-none mt-1">DEMO Version </span>
+        </div>
+      </div>
+
       {/* Decorative background elements with Parallax */}
       <div 
         className="absolute top-0 left-0 w-[40rem] h-[40rem] bg-emerald-500/10 dark:bg-emerald-500/5 rounded-full blur-[100px] pointer-events-none transition-transform duration-75 ease-out"
@@ -97,7 +105,7 @@ const Header: React.FC = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-black/40 blur-2xl rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
               <p className="relative text-base md:text-lg text-emerald-50/90 leading-relaxed bg-black/30 backdrop-blur-xl p-6 md:p-8 rounded-[2.5rem] border border-white/10 shadow-2xl text-center">
-                একটি অবাধ, সুষ্ঠু ও নিরপেক্ষ নির্বাচন আয়োজনের জন্য বাংলাদেশ পুলিশ দৃঢ়প্রতিজ্ঞ। এই দেশ আমার, আপনার—আমাদের সকলের। আসুন, আমরা সবাই মিলে একটি সুন্দর ও শান্তিপূর্ণ নির্বাচনের মাধ্যমে দেশকে নতুন সম্ভাবনার পথে এগিয়ে নেই।
+                একটি অবাধ, সুষ্ঠ ও নিরপেক্ষ নির্বাচন আয়োজনের জন্য বাংলাদেশ পুলিশ দৃঢ়প্রতিজ্ঞ। এই দেশ আমার, আপনার আমাদের সকলের। আসুন, আমরা সবাই মিলে একটি সুন্দর ও শান্তিপূর্ণ নির্বাচনের মাধ্যমে দেশকে নতুন সম্ভাবনার পথে এগিয়ে নেই।
               </p>
             </div>
           </div>
@@ -128,7 +136,7 @@ const Header: React.FC = () => {
                     <p className="text-lg md:text-xl font-medium text-emerald-100/80">পুলিশ সুপার, চাঁপাইনবাবগঞ্জ</p>
                     <a href="tel:+8801320125500" className="inline-flex items-center space-x-3 mt-4 bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-2xl transition-all active:scale-95 shadow-lg shadow-emerald-500/20 font-bold group/btn">
                       <i className="fa-solid fa-phone-volume group-hover/btn:animate-bounce"></i>
-                      <span> +৮৮০১৩২০-১২৫৫০০</span>
+                      <span>কল করুন: +৮৮০১৩২০-১২৫৫০০</span>
                     </a>
                   </div>
                </div>
