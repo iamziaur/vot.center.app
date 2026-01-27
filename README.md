@@ -1,20 +1,108 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🇧🇩 Bangladesh Election 2026 – Polling Center Map
 
-# Run and deploy your AI Studio app
+A modern, fast, and user‑friendly digital map platform to help citizens of **Chapainawabganj Sadar** easily find their voting centers for the 2026 National Election.
 
-This contains everything you need to run your app locally.
+🚀 Live Map • 🤖 AI Assistant • 🌗 Dark Mode • 📍 Google Maps Integration
 
-View your app in AI Studio: https://ai.studio/apps/drive/1wM388h84giVQZ0Vi23oiOPm9kMJCWtGg
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+* 🗺 Interactive polling center maps by union & municipality
+* 🤖 AI chat assistant in Bangla for voter guidance
+* 🌗 Auto day/night theme support
+* ⚡ Fast React + Vite performance
+* 📱 Fully responsive mobile design
+* 🔒 Secure environment variables for API keys
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📸 Preview
+
+> (Add screenshots here)
+
+```
+/public/preview1.png
+/public/preview2.png
+```
+
+---
+
+## 🛠 Tech Stack
+
+* React + TypeScript
+* Vite
+* Tailwind CSS
+* Google Maps
+* Gemini AI SDK
+* Vercel Deployment
+
+---
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deploy (Free)
+
+### Vercel (Recommended)
+
+1. Push project to GitHub
+2. Import on [https://vercel.com](https://vercel.com)
+3. Add Environment Variable:
+
+```
+API_KEY=your_gemini_api_key
+```
+
+4. Click Deploy 🎉
+
+---
+
+## 📂 Recommended Structure
+
+```
+src/
+ ├ components/
+ ├ pages/
+ ├ App.tsx
+ └ main.tsx
+```
+
+---
+
+## 🤖 AI Assistant Behavior
+
+* Responds in Bengali only
+* Election safety & civic guidance
+* Polling center help
+* Respectful & formal tone
+
+---
+
+## 📜 License
+
+This project is for public service & educational use.
+
+---
+
+## ❤️ Credits
+
+Developed for the citizens of Chapainawabganj
+
+Digital Election Initiative 2026
+
+---
+
+### ⭐ If this project helps you, consider giving it a star on GitHub!
