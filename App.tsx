@@ -128,13 +128,19 @@ const App: React.FC = () => {
             </div>
             <div className="space-y-4">
               <h4 className="text-xl font-bold border-b border-white/10 pb-3 inline-block">জরুরি যোগাযোগ</h4>
-              <div className="flex items-center justify-center md:justify-start space-x-3 text-sm">
-                <i className="fa-solid fa-phone text-emerald-500"></i>
-                <span>৯৯৯ (জাতীয় জরুরি সেবা)</span>
-              </div>
-              <div className="flex items-center justify-center md:justify-start space-x-3 text-sm">
-                <i className="fa-solid fa-envelope text-emerald-500"></i>
-                <span>ocnaw.naw@police.gov.bd</span>
+              <div className="flex flex-col space-y-3">
+                <a href="tel:999" className="flex items-center justify-center md:justify-start space-x-3 text-sm bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-xl transition-all active:scale-95 w-fit">
+                  <i className="fa-solid fa-phone"></i>
+                  <span className="font-bold">৯৯৯ (জাতীয় জরুরি সেবা)</span>
+                </a>
+                <a href="tel:+8801320125574" className="flex items-center justify-center md:justify-start space-x-3 text-sm bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-xl transition-all active:scale-95 border border-white/10 w-fit">
+                  <i className="fa-solid fa-headset"></i>
+                  <span className="font-bold">ডিউটি অফিসার: +8801320125574</span>
+                </a>
+                <div className="flex items-center justify-center md:justify-start space-x-3 text-sm pt-2">
+                  <i className="fa-solid fa-envelope text-emerald-500"></i>
+                  <span className="text-emerald-100/70">ocnaw.naw@police.gov.bd</span>
+                </div>
               </div>
             </div>
           </div>
