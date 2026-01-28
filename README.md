@@ -56,11 +56,7 @@ npm run build
 
 ## 🌐 Deploy (Free)
 
-### Vercel (Recommended)
 
-1. Push project to GitHub
-2. Import on [https://vercel.com](https://vercel.com)
-3. Add Environment Variable:
 
 ```
 API_KEY=your_gemini_api_key
