@@ -74,8 +74,8 @@ const contacts: ContactLink[] = [
     iconColor: 'bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400'
   },
   { 
-    name: 'অফিসার ইনচার্জ', 
-    designation: 'সদর মডেল থানা', 
+    name: 'মোঃ নূরে আলম', 
+    designation: 'অফিসার ইনচার্জ, সদর মডেল থানা', 
     phone: '+8801320125569',
     icon: 'fa-solid fa-user-shield',
     iconColor: 'bg-emerald-50 dark:bg-emerald-900/20 text-emerald-600 dark:text-emerald-400'
