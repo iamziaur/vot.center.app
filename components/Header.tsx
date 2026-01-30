@@ -144,8 +144,8 @@ const Header: React.FC = () => {
                   </div>
                   <div className="text-left flex-1">
                     <p className="text-xs uppercase tracking-[0.2em] text-emerald-300 mb-0.5 font-bold">মানচিত্র বাস্তবায়ন</p>
-                    <p className="text-xl font-black">অফিসার ইনচার্জ</p>
-                    <p className="text-xs font-medium opacity-70">চাঁপাইনবাবগঞ্জ সদর মডেল থানা</p>
+                    <p className="text-xl font-black">মোঃ নূরে আলম</p>
+                    <p className="text-xs font-medium opacity-70 leading-tight">অফিসার ইনচার্জ, সদর মডেল থানা, চাঁপাইনবাবগঞ্জ</p>
                     <a href="tel:+8801320125569" className="inline-flex items-center space-x-2 mt-3 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-xl border border-white/20 transition-all active:scale-95 text-sm font-bold w-full justify-center md:justify-start">
                       <i className="fa-solid fa-phone"></i>
                       <span>+৮৮০১৩২০১২৫৫৬৯</span>
