@@ -134,7 +134,20 @@ const Header: React.FC = () => {
                   </div>
                </div>
             </div>
-
+{/* Supervision (Additional Superintendent of Police) */}
+            <div className="bg-white/5 backdrop-blur-md p-6 md:p-8 rounded-[2.5rem] border border-white/10 transition-all duration-300 hover:bg-white/10 hover:translate-y-[-4px] group relative overflow-hidden">
+               <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start md:space-x-8 space-y-4 md:space-y-0 text-center md:text-left">
+                  <div className="w-20 h-20 bg-emerald-500/10 rounded-3xl flex items-center justify-center group-hover:bg-emerald-500 transition-all shadow-xl border border-white/10">
+                    <i className="fa-solid fa-user-shield text-3xl text-emerald-400 group-hover:text-white"></i>
+                  </div>
+                  <div className="space-y-1 flex flex-col items-center md:items-start">
+                    <p className="text-sm uppercase tracking-[0.3em] text-emerald-300 font-black opacity-90">তত্ত্বাবধানে</p>
+                    <h2 className="text-3xl md:text-4xl font-black text-white group-hover:text-emerald-100 transition-colors">ইয়াসির আরাফাত</h2>
+                    <p className="text-lg md:text-xl font-medium text-emerald-100/80">অতিরিক্ত পুলিশ সুপার (সদর সার্কেল), চাঁপাইনবাবগঞ্জ</p>
+                  </div>
+               </div>
+            </div>
+            
             {/* Implementation Details Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 transition-all duration-300 hover:bg-white/10 hover:translate-y-[-4px] group">
