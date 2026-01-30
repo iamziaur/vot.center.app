@@ -142,8 +142,12 @@ const Header: React.FC = () => {
                   </div>
                   <div className="space-y-1 flex flex-col items-center md:items-start">
                     <p className="text-sm uppercase tracking-[0.3em] text-emerald-300 font-black opacity-90">তত্ত্বাবধানে</p>
-                    <h2 className="text-3xl md:text-4xl font-black text-white group-hover:text-emerald-100 transition-colors">ইয়াসির আরাফাত</h2>
+                    <h2 className="text-3xl md:text-4xl font-black text-white group-hover:text-emerald-100 transition-colors">মোঃ ইয়াসির আরাফাত</h2>
                     <p className="text-lg md:text-xl font-medium text-emerald-100/80">অতিরিক্ত পুলিশ সুপার (সদর সার্কেল), চাঁপাইনবাবগঞ্জ</p>
+                    <a href="tel:+8801320125544" className="inline-flex items-center space-x-3 mt-4 bg-emerald-600/80 hover:bg-emerald-700 text-white px-6 py-2 rounded-2xl transition-all active:scale-95 shadow-lg font-bold text-sm">
+                      <i className="fa-solid fa-phone"></i>
+                      <span>+৮৮০১৩২০-১২৫৫৪৪</span>
+                    </a>
                   </div>
                </div>
             </div>
