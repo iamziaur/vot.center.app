@@ -12,7 +12,7 @@ const App: React.FC = () => {
   const [error, setError] = useState('');
 
   // Password for the app
-  const APP_PASSWORD = '1234';
+  const APP_PASSWORD = 'vot2026';
 
   useEffect(() => {
     // Check if user has already authenticated
