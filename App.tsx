@@ -1,5 +1,4 @@
-
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import MapCard from './components/MapCard';
 import ChatAssistant from './components/ChatAssistant';
@@ -8,10 +7,93 @@ import { MAP_LINKS, COMBINED_LINKS } from './constants';
 
 const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
+  const [isAuthorized, setIsAuthorized] = useState(false);
+  const [passwordInput, setPasswordInput] = useState('');
+  const [error, setError] = useState('');
+
+  // Password for the app
+  const APP_PASSWORD = '1234';
+
+  useEffect(() => {
+    // Check if user has already authenticated
+    const authStatus = localStorage.getItem('app_authorized');
+    if (authStatus === 'true') {
+      setIsAuthorized(true);
+    }
+  }, []);
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (passwordInput === APP_PASSWORD) {
+      localStorage.setItem('app_authorized', 'true');
+      setIsAuthorized(true);
+      setError('');
+    } else {
+      setError('ভুল পাসওয়ার্ড! আবার চেষ্টা করুন।');
+      setPasswordInput('');
+    }
+  };
 
   const filteredLinks = MAP_LINKS.filter(link => 
     link.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  if (!isAuthorized) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-emerald-950 via-emerald-900 to-emerald-950 p-4">
+        {/* Decorative elements */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
+        <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-emerald-500/20 rounded-full blur-[100px]"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-red-600/10 rounded-full blur-[120px]"></div>
+
+        <div className="relative z-10 w-full max-w-md bg-white/10 backdrop-blur-2xl border border-white/20 p-8 rounded-[2.5rem] shadow-2xl text-center">
+          <div className="flex justify-center space-x-4 mb-8">
+            <img 
+              src="https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/492010095_1113009900865489_8806598934180709620_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GZiby1-tOnsQ7kNvwFLtO4M&_nc_oc=AdlR4JyN-mI1fMBAkP2XOq1pPlv9rfOlNjbZAty8W0mvSqKXrAndIistSS9PFI6Ka6E&_nc_zt=23&_nc_ht=scontent.fdac24-5.fna&_nc_gid=B4rXI_6AitspJ7bnJYRJQw&oh=00_AfpjqEvJgdvTXUu3PJgCL8z1nqEQOQrr6fdRe-VfJ2dOFA&oe=697E8F96" 
+              alt="Police Logo" 
+              className="w-16 h-16 rounded-full border-2 border-white/30 bg-white"
+            />
+            <img 
+              src="https://upload.wikimedia.org/wikipedia/commons/8/84/Government_Seal_of_Bangladesh.svg" 
+              alt="Gov Seal" 
+              className="w-16 h-16"
+            />
+          </div>
+
+          <h1 className="text-2xl font-black text-white mb-2 leading-tight">ভোট কেন্দ্র ডিজিটাল ম্যাপ</h1>
+          <p className="text-emerald-100/70 text-sm mb-8">সদর মডেল থানা, চাঁপাইনবাবগঞ্জ</p>
+
+          <form onSubmit={handleLogin} className="space-y-4">
+            <div className="relative">
+              <i className="fa-solid fa-lock absolute left-4 top-1/2 -translate-y-1/2 text-emerald-300"></i>
+              <input
+                type="password"
+                placeholder="পাসওয়ার্ড লিখুন..."
+                value={passwordInput}
+                onChange={(e) => setPasswordInput(e.target.value)}
+                className="w-full bg-white/10 border border-white/20 rounded-2xl py-3.5 pl-12 pr-4 text-white placeholder:text-white/40 outline-none focus:ring-2 focus:ring-emerald-500 transition-all text-center tracking-widest"
+                autoFocus
+              />
+            </div>
+            
+            {error && (
+              <p className="text-red-400 text-xs font-bold animate-pulse">{error}</p>
+            )}
+
+            <button
+              type="submit"
+              className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-black py-3.5 rounded-2xl shadow-xl shadow-emerald-950/20 transition-all active:scale-95 flex items-center justify-center space-x-2"
+            >
+              <span>প্রবেশ করুন</span>
+              <i className="fa-solid fa-arrow-right-to-bracket"></i>
+            </button>
+          </form>
+
+          <p className="mt-8 text-[10px] text-white/30 uppercase tracking-[0.2em]">© ২০২৬ | বাংলাদেশ পুলিশ</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col font-sans bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
