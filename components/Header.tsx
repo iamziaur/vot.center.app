@@ -69,8 +69,7 @@ const Header: React.FC = () => {
               <div className="relative group">
                 <div className="absolute -inset-2 bg-white/20 rounded-full blur-xl group-hover:bg-white/30 transition duration-500"></div>
                 <img 
-                  src="https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/492010095_1113009900865489_8806598934180709620_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GZiby1-tOnsQ7kNvwFLtO4M&_nc_oc=AdlR4JyN-mI1fMBAkP2XOq1pPlv9rfOlNjbZAty8W0mvSqKXrAndIistSS9PFI6Ka6E&_nc_zt=23&_nc_ht=scontent.fdac24-5.fna&_nc_gid=B4rXI_6AitspJ7bnJYRJQw&oh=00_AfpjqEvJgdvTXUu3PJgCL8z1nqEQOQrr6fdRe-VfJ2dOFA&oe=697E8F96" 
-                  alt="Bangladesh Police" 
+                  src="https://upload.wikimedia.org/wikipedia/commons/7/75/Bangladesh_Police_Emblem.svg" 
                   className="relative w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-white/30 shadow-2xl object-cover bg-white"
                 />
               </div>
