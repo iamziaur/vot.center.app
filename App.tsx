@@ -49,8 +49,7 @@ const App: React.FC = () => {
         <div className="relative z-10 w-full max-w-md bg-white/10 backdrop-blur-2xl border border-white/20 p-8 rounded-[2.5rem] shadow-2xl text-center">
           <div className="flex justify-center space-x-4 mb-8">
             <img 
-              src="https://scontent.fdac24-5.fna.fbcdn.net/v/t39.30808-6/492010095_1113009900865489_8806598934180709620_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=GZiby1-tOnsQ7kNvwFLtO4M&_nc_oc=AdlR4JyN-mI1fMBAkP2XOq1pPlv9rfOlNjbZAty8W0mvSqKXrAndIistSS9PFI6Ka6E&_nc_zt=23&_nc_ht=scontent.fdac24-5.fna&_nc_gid=B4rXI_6AitspJ7bnJYRJQw&oh=00_AfpjqEvJgdvTXUu3PJgCL8z1nqEQOQrr6fdRe-VfJ2dOFA&oe=697E8F96" 
-              alt="Police Logo" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Bangladesh_Police_Emblem.svg/1280px-Bangladesh_Police_Emblem.svg.png?20250422181909" 
               className="w-16 h-16 rounded-full border-2 border-white/30 bg-white"
             />
             <img 
