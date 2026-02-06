@@ -60,13 +60,6 @@ const ContactCard: React.FC<ContactCardProps> = ({ contact }) => {
 
 const contacts: ContactLink[] = [
   { 
-    name: 'চাঁপাইনবাবগঞ্জ জেলা প্রশাসক', 
-    designation: 'জেলা রিটার্নিং অফিসার', 
-    phone: '+8801318320100',
-    icon: 'fa-solid fa-building-columns',
-    iconColor: 'bg-blue-50 dark:bg-blue-900/20 text-blue-600 dark:text-blue-400'
-  },
-  { 
     name: 'পুলিশ সুপার চাঁপাইনবাবগঞ্জ', 
     designation: '', 
     phone: '+8801320125500',
